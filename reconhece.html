@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Melhor dos Dois Mundos</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Macondo+Swash+Caps" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div id="titulo">
+        <h1>O Melhor dos Dois Mundos</h1>
+        <h2>Site nostalgia para ex-crianças sedentárias</h2>
+      </div>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Filmes</a></li>
+        <li><a href="series.html">Séries</a></li>
+        <li><a href="reconhece.html">Desafio: Se lembra?</a></li>
+        <li><a href="creditos.html">As sem-ideia que criaram esse site</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h2>Desafio: Se lembra?</h2>
+      <p>Agora vamos ver se você se lembra bem das séries e filmes Nick e Disney da nossa infância.
+      Mas tenho que avisar: o quiz não é nada fácil. Bom quiz!</p>
+      <section id="container">
+          <article id="comecar">Começar Quiz!</article>
+          <section id="quiz" style="display: none">
+              <div id="pergunta"></div>
+              <div id="pImg"></div>
+              <div id="opcoes">
+                  <article id="A" onclick="conferirResposta('A')"></article>
+                  <article id="B" onclick="conferirResposta('B')"></article>
+                  <article id="C" onclick="conferirResposta('C')"></article>
+                  <article id="D" onclick="conferirResposta('D')"></article>
+              </div>
+              <div id="cronometro">
+                  <article id="contador"></article>
+                  <article id="bindicadorTempo"></article>
+                  <article id="indicadorTempo"></article>
+              </div>
+              <div id="progresso"></div>
+          </section>
+          <div id="containerNota" style="display: none"></div>
+      </section>
+      <p>Para finalizar, eu achei mais que justo colocar um toque pessoal nosso com um vídeo do episódio mais icônico das nossas infâncias. Quem se lembra disso?</p>
+      <video src="video-nostalgia.mp4" controls>
+        O seu navegador não suporta o vídeo.
+      </video>
+      <p>É ou não é o episódio mais icônico da nossa infância Disney e Nick? Conte-me sua opinião, "sim" ou 'nao'?</p>
+      <aside class="">
+        <input type="text" id="resposta">
+        <button type="button" id="botao">Enviar</button>
+      </aside>
+    </main>
+
+    <script src="quiz.js"></script>
+    <script src="input.js"></script>
+</body>
+</html>
