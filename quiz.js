@@ -14,7 +14,7 @@ const notaDivEl = document.getElementById("containerNota");
 let perguntas = [
     {
         pergunta : "De quem é esse quarto?",
-        imgSrc : "img/img-quiz/quarto.jpg",
+        imgSrc : "quarto.jpg",
         opcaoA : "Gabriela",
         opcaoB : "Tori",
         opcaoC : "Hannah Montana",
@@ -22,7 +22,7 @@ let perguntas = [
         certa : "D"
     },{
         pergunta : "Qual é a primeira música que Troy e Gabriela cantam juntos?",
-        imgSrc : "img/img-quiz/primeira-musica.jpg",
+        imgSrc : "primeira-musica.jpg",
         opcaoA : "Breaking Free",
         opcaoB : "What I've Been Looking For",
         opcaoC : "Start of Something New",
@@ -30,7 +30,7 @@ let perguntas = [
         certa : "C"
     },{
         pergunta : "De onde é esse cenário?",
-        imgSrc : "img/img-quiz/cenario.jpg",
+        imgSrc : "cenario.jpg",
         opcaoA : "Boa Sorte, Charlie!",
         opcaoB : "Drake & Josh",
         opcaoC : "As Visões de Raven",
@@ -38,7 +38,7 @@ let perguntas = [
         certa : "A"
     },{
         pergunta : "A figurinha tão procurada em Swindle era de:",
-        imgSrc : "img/img-quiz/swindle.jpg",
+        imgSrc : "swindle.jpg",
         opcaoA : "Dragon Ball",
         opcaoB : "Basebol",
         opcaoC : "Naruto",
@@ -46,7 +46,7 @@ let perguntas = [
         certa : "B"
     },{
         pergunta : "Qual desssas celebridades fez uma participação especial em WWP?",
-        imgSrc : "img/img-quiz/convidado.jpg",
+        imgSrc : "convidado.jpg",
         opcaoA : "Stan Lee",
         opcaoB : "Leonardo DiCaprio",
         opcaoC : "Meryl Streep",
@@ -54,7 +54,7 @@ let perguntas = [
         certa : "D"
     },{
         pergunta : "A música 'Not a love song' é de que série?",
-        imgSrc : "img/img-quiz/song.jpg",
+        imgSrc : "song.jpg",
         opcaoA : "High School Musical",
         opcaoB : "Austin & Ally",
         opcaoC : "Big Time Rush",
@@ -62,7 +62,7 @@ let perguntas = [
         certa : "B"
     },{
         pergunta : "De que série/filme é essa chave?",
-        imgSrc : "img/img-quiz/chave.jpg",
+        imgSrc : "chave.jpg",
         opcaoA : "High School Musical",
         opcaoB : "Brilhante Victória",
         opcaoC : "Hannah Montana",
@@ -70,7 +70,7 @@ let perguntas = [
         certa : "D"
     },{
         pergunta : "Qual dessas cantoras já apresentou em Brilhante Victória??",
-        imgSrc : "img/img-quiz/cantora.jpg",
+        imgSrc : "cantora.jpg",
         opcaoA : "Ke$ha",
         opcaoB : "Britney Spears",
         opcaoC : "Kelly Clarkson",
@@ -78,7 +78,7 @@ let perguntas = [
         certa : "A"
     },{
         pergunta : "Miley é convidada para participar de um filme com qual ator?",
-        imgSrc : "img/img-quiz/ator.jpg",
+        imgSrc : "ator.jpg",
         opcaoA : "The Rock",
         opcaoB : "Johnny Depp",
         opcaoC : "Tom Cruise",
@@ -86,7 +86,7 @@ let perguntas = [
         certa : "C"
     },{
         pergunta : "Quem  celebridade Josh atropelou?",
-        imgSrc : "img/img-quiz/atropelou.jpg",
+        imgSrc : "atropelou.jpg",
         opcaoA : "Ellen",
         opcaoB : "Barack Obama",
         opcaoC : "Oprah",
@@ -94,7 +94,7 @@ let perguntas = [
         certa : "C"
     },{
         pergunta : "De que série é o hotel Palm Woods?",
-        imgSrc : "img/img-quiz/hotel.png",
+        imgSrc : "hotel.png",
         opcaoA : "Gêmeos à Bordo",
         opcaoB : "Zoey 101",
         opcaoC : "Gêmeos em Ação",
@@ -102,7 +102,7 @@ let perguntas = [
         certa : "D"
     },{
         pergunta : "Qual é o nome artístico de Cyrus em Let it Shine?",
-        imgSrc : "img/img-quiz/rap.jpg",
+        imgSrc : "rap.jpg",
         opcaoA : "Truth",
         opcaoB : "Limon",
         opcaoC : "Lion",
@@ -110,7 +110,7 @@ let perguntas = [
         certa : "A"
     },{
         pergunta : "Em Starstruck, qual é música que Chris canta tocando violão?",
-        imgSrc : "img/img-quiz/violao.jpg",
+        imgSrc : "violao.jpg",
         opcaoA : "Starstruck",
         opcaoB : "Hero",
         opcaoC : "New Boyfriend",
@@ -118,7 +118,7 @@ let perguntas = [
         certa : "B"
     },{
         pergunta : "De quem é esse armário em Brilhante Victória?",
-        imgSrc : "img/img-quiz/armario.jpg",
+        imgSrc : "armario.jpg",
         opcaoA : "Robin",
         opcaoB : "Tori",
         opcaoC : "Jade",
@@ -126,7 +126,7 @@ let perguntas = [
         certa : "D"
     },{
         pergunta : "De que série é esse personagem?",
-        imgSrc : "img/img-quiz/personagem.jpg",
+        imgSrc : "personagem.jpg",
         opcaoA : "Hannah Montana",
         opcaoB : "iCarly",
         opcaoC : "True Jackson",
@@ -134,7 +134,7 @@ let perguntas = [
         certa : "C"
     },{
         pergunta : "Quem canta a música de introdução de No Ritmo?",
-        imgSrc : "img/img-quiz/abertura.jpg",
+        imgSrc : "abertura.jpg",
         opcaoA : "Zendaya",
         opcaoB : "Selena Gomez",
         opcaoC : "Bella Thorne",
