@@ -232,7 +232,7 @@ function renderizarNota(){
               (porcentagemNota >= 60) ? "4.png" :
               (porcentagemNota >= 40) ? "3.png" :
               (porcentagemNota >= 20) ? "2.png" :
-              "img/1.png";
+              "1.png";
 
     notaDivEl.innerHTML = "<img src="+ img +">";
     notaDivEl.innerHTML += "<p>"+ porcentagemNota +"%</p>";
