@@ -228,10 +228,10 @@ function renderizarNota(){
 
     const porcentagemNota = Math.round(100 * nota/perguntas.length);
 
-    let img = (porcentagemNota >= 80) ? "img/5.png" :
-              (porcentagemNota >= 60) ? "img/4.png" :
-              (porcentagemNota >= 40) ? "img/3.png" :
-              (porcentagemNota >= 20) ? "img/2.png" :
+    let img = (porcentagemNota >= 80) ? "5.png" :
+              (porcentagemNota >= 60) ? "4.png" :
+              (porcentagemNota >= 40) ? "3.png" :
+              (porcentagemNota >= 20) ? "2.png" :
               "img/1.png";
 
     notaDivEl.innerHTML = "<img src="+ img +">";
