@@ -5,7 +5,7 @@ body {
 header {
   font-family: "Macondo Swash Caps", cursive;
   text-align: center;
-  background-image: url("img/fundo3.png");
+  background-image: url("fundo3.png");
   background-repeat: repeat;
   padding-bottom: 15px;
   padding-top: 30px;
@@ -213,7 +213,7 @@ body > section {
 }
 
 #img-disney {
-  background-image: url("img/series-disney.png");
+  background-image: url("series-disney.png");
   background-repeat: repeat;
   margin-left: 0px;
   margin-right: 0px;
@@ -222,7 +222,7 @@ body > section {
 }
 
 #img-nick {
-  background-image: url("img/series-nick.png");
+  background-image: url("series-nick.png");
   background-repeat: repeat;
   margin-left: 0px;
   margin-right: 0px;
